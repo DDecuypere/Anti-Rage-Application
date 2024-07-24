@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Anti Rage",
+    "slug": "Anti-Rage",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/anti-rage.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/anti-rage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "black"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/anti-rage.png",
+        "backgroundColor": "black"
+      },
+      "permissions": ["android.permission.HIGH_SAMPLING_RATE_SENSORS"]
+      }
+    },
+    "web": {
+      "favicon": "./assets/anti-rage.png"
+    }
+}
